@@ -1,0 +1,92 @@
+.shoe__card {
+
+    border-radius: 10px;
+    width: 250px;
+    transition: 500ms ease;
+    cursor: pointer;
+    margin-top: 30px;
+
+    .shop__img {
+        width: 100%;
+        height: 200px;
+        background-color: rgb(216, 216, 216);
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border-radius: 10px 10px 0 0;
+        transition: 500ms ease;
+
+        .icon {
+            display: flex;
+            padding: 10px;
+            justify-content: space-between;
+
+
+            .discount {
+                background-color: red;
+                font-family: $primary-font;
+                padding: 2px 5px;
+                color: $white;
+                border-radius: 7px;
+                visibility: hidden;
+            }
+        }
+
+        .buy {
+            background-color: black;
+            text-align: center;
+            visibility: hidden;
+
+            a {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-family: $primary-font;
+                text-decoration: none;
+                text-transform: capitalize;
+                color: $white;
+                padding: 6px 0;
+
+                svg {
+                    margin-left: 10px;
+                }
+            }
+        }
+
+        &:hover {
+
+            .buy,
+            .icon .discount {
+                visibility: visible;
+            }
+        }
+    }
+
+    .shoe__description {
+        font-family: $primary-font;
+        padding: 5px;
+        transition: 500ms ease;
+
+        .shoe__name,
+        .shoe__price {
+            padding: 3px 0;
+        }
+
+        .ratings {
+            display: flex;
+            align-items: center;
+
+            .buys {
+                margin-left: 5px;
+                font-size: 1.1rem;
+                padding-bottom: 4px;
+            }
+        }
+
+    }
+
+    &:hover {
+        border: 1px solid black;
+    }
+}

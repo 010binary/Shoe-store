@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+$primary-color: #4A4C6C;
+$white: #fff;
+$black: #000;
+$button1: #7C7EA1;
+$button2: #77794E;
+$button2-hover: #9FA16D;
+$accent-color: rgba(74, 76, 108, 0.17);
+$primary-font: 'Acme', Verdana, 'Segoe UI', sans-serif;
+$secondary-font: 'Teko', Verdana, 'Segoe UI', sans-serif;
+$image-font: 'Abel', Verdana, 'Segoe UI', sans-serif;
+
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+// Width of the scrollbar for firefox
+* {
+    scrollbar-width: thin;
+    scrollbar-color: $primary-color transparent;
+    scrollbar-width: 8px;
+}
+
+//  Handle (Thumb) on hover for firefox
+*:hover {
+    scrollbar-color: $black transparent;
+}
+
+//  width 
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+// Track
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+// Handle 
+::-webkit-scrollbar-thumb {
+    background: $primary-color;
+}
+
+//  Handle on hover 
+::-webkit-scrollbar-thumb:hover {
+    background: $black;
+}
+
+// cancel the Horizontal scroll 
+::-webkit-scrollbar {
+    display: none;
+}

@@ -1,0 +1,627 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #4A4C6C transparent;
+  scrollbar-width: 8px;
+}
+
+*:hover {
+  scrollbar-color: #000 transparent;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #4A4C6C;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #000;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background-color: #fff;
+}
+header .header {
+  background-color: #4A4C6C;
+  color: #fff;
+  font-family: "Acme", Verdana, "Segoe UI", sans-serif;
+  height: 30px;
+  display: grid;
+  place-content: center;
+}
+header .header .TopHead {
+  margin: auto 0;
+  text-align: center;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  overflow: hidden;
+  padding: 10px 100px;
+  border-bottom: 1px solid gray;
+}
+header nav .left_nav {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav .left_nav ul {
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav .left_nav ul li {
+  list-style: none;
+}
+header nav .left_nav ul li a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #000;
+  text-transform: capitalize;
+  transition: 0.5s ease-in-out;
+}
+header nav .left_nav ul li a:hover {
+  text-decoration: underline;
+  transition: 0.5s ease-in-out;
+}
+header nav .right_nav {
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.heropage {
+  position: relative;
+  padding: 10px 100px;
+  display: block;
+  margin: 0 auto 100px auto;
+}
+.heropage .centered_text {
+  font-family: "Teko", Verdana, "Segoe UI", sans-serif;
+  font-size: 18.75rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 10% 0 0 0;
+  color: rgba(74, 76, 108, 0.17);
+}
+.heropage .left_text,
+.heropage .right_text {
+  font-family: "Teko", Verdana, "Segoe UI", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.4rem;
+  letter-spacing: 2px;
+}
+.heropage .left_text {
+  position: absolute;
+  top: 9rem;
+  left: 23rem;
+}
+.heropage .right_text {
+  position: absolute;
+  right: 20rem;
+  bottom: 3rem;
+}
+.heropage .display__shoe {
+  position: absolute;
+  height: min-content;
+  top: 0;
+  left: 5rem;
+}
+
+.shoe__card {
+  border-radius: 10px;
+  width: 250px;
+  transition: 500ms ease;
+  cursor: pointer;
+  margin-top: 30px;
+}
+.shoe__card .shop__img {
+  width: 100%;
+  height: 200px;
+  background-color: rgb(216, 216, 216);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 10px 10px 0 0;
+  transition: 500ms ease;
+}
+.shoe__card .shop__img .icon {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+}
+.shoe__card .shop__img .icon .discount {
+  background-color: red;
+  font-family: "Acme", Verdana, "Segoe UI", sans-serif;
+  padding: 2px 5px;
+  color: #fff;
+  border-radius: 7px;
+  visibility: hidden;
+}
+.shoe__card .shop__img .buy {
+  background-color: black;
+  text-align: center;
+  visibility: hidden;
+}
+.shoe__card .shop__img .buy a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Acme", Verdana, "Segoe UI", sans-serif;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #fff;
+  padding: 6px 0;
+}
+.shoe__card .shop__img .buy a svg {
+  margin-left: 10px;
+}
+.shoe__card .shop__img:hover .buy,
+.shoe__card .shop__img:hover .icon .discount {
+  visibility: visible;
+}
+.shoe__card .shoe__description {
+  font-family: "Acme", Verdana, "Segoe UI", sans-serif;
+  padding: 5px;
+  transition: 500ms ease;
+}
+.shoe__card .shoe__description .shoe__name,
+.shoe__card .shoe__description .shoe__price {
+  padding: 3px 0;
+}
+.shoe__card .shoe__description .ratings {
+  display: flex;
+  align-items: center;
+}
+.shoe__card .shoe__description .ratings .buys {
+  margin-left: 5px;
+  font-size: 1.1rem;
+  padding-bottom: 4px;
+}
+.shoe__card:hover {
+  border: 1px solid black;
+}
+
+footer {
+  padding: 10px 100px;
+  padding-top: 40px;
+  color: aliceblue;
+  background-color: #333333;
+}
+footer span {
+  display: block;
+}
+footer .footer__info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+footer .footer__info .footer__left .address {
+  margin-top: 20px;
+}
+footer .footer__info .footer__left .address span {
+  text-transform: capitalize;
+  font-family: "Acme", Verdana, "Segoe UI", sans-serif;
+}
+footer .footer__info .footer__left .contact {
+  padding-top: 20px;
+}
+footer .footer__info .footer__left .contact span {
+  padding-top: 10px;
+}
+footer .footer__info .footer__left .contact span a {
+  color: aliceblue;
+  text-transform: none;
+}
+footer .footer__info .footer__right {
+  display: flex;
+  width: 30%;
+  justify-content: space-between;
+  text-transform: uppercase;
+}
+footer .footer__info .footer__right section span {
+  padding-top: 5px;
+}
+footer .footer__info .footer__right section span a {
+  color: aliceblue;
+  text-decoration: none;
+}
+footer .copyright {
+  text-align: center;
+  border-top: 1px solid rgb(138, 138, 140);
+  padding-top: 20px;
+  font-family: "Acme", Verdana, "Segoe UI", sans-serif;
+}
+
+.shop {
+  padding: 10px 100px;
+  padding-bottom: 0;
+}
+.shop .categories {
+  padding: 15px 0;
+}
+.shop .categories a {
+  padding: 10px;
+  border: 2px solid #9FA16D;
+  border-radius: 20px;
+  color: #fff;
+  text-decoration: none;
+  font-family: "Acme", Verdana, "Segoe UI", sans-serif;
+  background-color: #77794E;
+  transition: 0.5s ease-in-out;
+}
+.shop .categories a:hover {
+  background-color: #9FA16D;
+}
+.shop .categories a + a {
+  margin-left: 20px;
+}
+.shop .categories .coloured {
+  background-color: #4A4C6C;
+  border: 2px solid #7C7EA1;
+}
+.shop .categories .coloured:hover {
+  background-color: #7C7EA1;
+}
+.shop .display {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 70px;
+  border-bottom: 1px solid rgb(138, 138, 140);
+}
+
+.images__fa {
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.images__fa .left__img,
+.images__fa .right__img {
+  width: 48%;
+  position: relative;
+  height: fit-content;
+}
+.images__fa .left__img section,
+.images__fa .right__img section {
+  position: absolute;
+  left: 30px;
+  bottom: 80px;
+}
+.images__fa .left__img section .design,
+.images__fa .right__img section .design {
+  font-family: "Abel", Verdana, "Segoe UI", sans-serif;
+  font-size: 3.5rem;
+  color: #fff;
+}
+.images__fa .left__img section button,
+.images__fa .right__img section button {
+  padding: 10px 30px;
+  border: 3px solid #fff;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  color: #fff;
+  transition: 0.3s ease-in-out;
+  background: none;
+  font-family: "Abel", Verdana, "Segoe UI", sans-serif;
+}
+.images__fa .left__img section button:hover,
+.images__fa .right__img section button:hover {
+  background: #fff;
+  color: #000;
+}
+.images__fa .left__img img,
+.images__fa .right__img img {
+  width: 100%;
+}
+.images__fa .right__img {
+  padding-top: 150px;
+}
+
+.best__selling {
+  padding: 10px 100px;
+}
+.best__selling .best__selling__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.best__selling .best__selling__header p {
+  text-transform: uppercase;
+  font-family: "Abel", Verdana, "Segoe UI", sans-serif;
+  font-size: 2.7rem;
+  color: #fff;
+  -webkit-text-stroke: 1px black;
+}
+.best__selling .best__selling__header p span {
+  color: #000;
+  -webkit-text-stroke: none;
+}
+.best__selling .best__selling__header .buttons button + button {
+  margin-left: 15px;
+}
+.best__selling .best__selling__header .buttons .prev,
+.best__selling .best__selling__header .buttons .next {
+  font-weight: 600;
+  font-family: "Abel", Verdana, "Segoe UI", sans-serif;
+  font-size: 1.1rem;
+  text-transform: capitalize;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.best__selling .best__selling__header .buttons .prev img,
+.best__selling .best__selling__header .buttons .next img {
+  display: block;
+}
+.best__selling .gallery__container {
+  white-space: nowrap;
+  overflow: auto;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+}
+.best__selling .gallery__container .shoe__card {
+  position: relative;
+  display: inline-block;
+}
+.best__selling .gallery__container::-webkit-scrollbar {
+  display: none;
+}
+.best__selling .shop__btn {
+  text-align: center;
+  padding: 50px 0;
+}
+.best__selling .shop__btn a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Abel", Verdana, "Segoe UI", sans-serif;
+  font-size: 1.5rem;
+  padding: 10px 20px;
+  background-color: #000;
+  text-transform: capitalize;
+}
+
+.picture__display {
+  padding: 50px 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 6px;
+  grid-row-gap: 6px;
+}
+
+.sect__img1 {
+  grid-area: 1/1/2/4;
+  position: relative;
+}
+.sect__img1 img {
+  width: 100%;
+  height: 100%;
+}
+.sect__img1 .picture__btn {
+  text-align: center;
+  position: absolute;
+  bottom: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.sect__img1 .picture__btn a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #F4F4F4;
+  font-family: "Abel", Verdana, "Segoe UI", sans-serif;
+  font-size: 1.5rem;
+  padding: 10px 20px;
+  background-color: #181818;
+}
+.sect__img1 .picture__btn a:hover {
+  color: #181818;
+  background-color: #F4F4F4;
+}
+
+.sect__img2 {
+  grid-area: 2/1/3/3;
+  position: relative;
+}
+.sect__img2 img {
+  height: 100%;
+  width: 100%;
+}
+.sect__img2 .picture__btn {
+  text-align: center;
+  position: absolute;
+  bottom: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.sect__img2 .picture__btn a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #F4F4F4;
+  font-family: "Abel", Verdana, "Segoe UI", sans-serif;
+  font-size: 1.5rem;
+  padding: 10px 20px;
+  background-color: #181818;
+}
+.sect__img2 .picture__btn a:hover {
+  color: #181818;
+  background-color: #F4F4F4;
+}
+
+.sect__img3 {
+  grid-area: 2/3/3/4;
+  position: relative;
+}
+.sect__img3 img {
+  width: 100%;
+  height: 100%;
+}
+.sect__img3 .picture__btn {
+  text-align: center;
+  position: absolute;
+  bottom: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.sect__img3 .picture__btn a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #F4F4F4;
+  font-family: "Abel", Verdana, "Segoe UI", sans-serif;
+  font-size: 1.5rem;
+  padding: 10px 20px;
+  background-color: #181818;
+}
+.sect__img3 .picture__btn a:hover {
+  color: #181818;
+  background-color: #F4F4F4;
+}
+
+.sect__img4 {
+  grid-area: 3/2/4/4;
+  position: relative;
+}
+.sect__img4 img {
+  width: 100%;
+  height: 100%;
+}
+.sect__img4 .picture__btn {
+  text-align: center;
+  position: absolute;
+  bottom: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.sect__img4 .picture__btn a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #181818;
+  font-family: "Abel", Verdana, "Segoe UI", sans-serif;
+  font-size: 1.5rem;
+  padding: 10px 20px;
+  background-color: #F4F4F4;
+}
+.sect__img4 .picture__btn a:hover {
+  color: #F4F4F4;
+  background-color: #181818;
+}
+
+.sect__img5 {
+  grid-area: 3/1/4/2;
+  position: relative;
+}
+.sect__img5 img {
+  width: 100%;
+  height: 100%;
+}
+.sect__img5 .picture__btn {
+  text-align: center;
+  position: absolute;
+  bottom: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.sect__img5 .picture__btn a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #181818;
+  font-family: "Abel", Verdana, "Segoe UI", sans-serif;
+  font-size: 1.5rem;
+  padding: 10px 20px;
+  background-color: #F4F4F4;
+  text-transform: uppercase;
+}
+.sect__img5 .picture__btn a:hover {
+  color: #F4F4F4;
+  background-color: #181818;
+}
+
+.proposition {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 50px 150px;
+}
+.proposition .delivery,
+.proposition .customer_care,
+.proposition .Warranty {
+  text-align: center;
+}
+.proposition .delivery img,
+.proposition .customer_care img,
+.proposition .Warranty img {
+  width: 5rem;
+}
+.proposition .delivery .title,
+.proposition .customer_care .title,
+.proposition .Warranty .title {
+  font-family: "Acme", Verdana, "Segoe UI", sans-serif;
+  font-size: 1.5rem;
+}
+.proposition .delivery .title_description,
+.proposition .customer_care .title_description,
+.proposition .Warranty .title_description {
+  font-family: "Abel", Verdana, "Segoe UI", sans-serif;
+  font-size: 1.2rem;
+}
+
+i {
+  color: #f4f4f4;
+  padding-top: 20px;
+  width: 50px;
+}
+
+.slash__price {
+  text-decoration: line-through;
+  text-decoration-thickness: 2px;
+  text-decoration-color: #000;
+  color: red;
+  margin-left: 20px;
+}
+
+main .mx-b {
+  margin-bottom: 50px;
+}
+main .like:hover path {
+  transition: 0.1s ease-in;
+  stroke: red;
+  fill: red;
+}
+
+.logo {
+  cursor: pointer;
+}/*# sourceMappingURL=file.css.map */

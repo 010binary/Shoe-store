@@ -1,0 +1,43 @@
+@import './reset';
+@import './header';
+@import './heropage';
+@import './card';
+@import './footer';
+@import './shop';
+@import './image';
+@import './bestselling';
+@import './PictureDisplay';
+@import './proposition';
+
+i {
+    color: #f4f4f4;
+    padding-top: 20px;
+    width: 50px;
+}
+
+.slash__price {
+    text-decoration: line-through;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #000;
+    color: red;
+    margin-left: 20px;
+}
+
+
+main {
+    .mx-b {
+        margin-bottom: 50px;
+    }
+
+    .like:hover path {
+        transition: .1s ease-in;
+        stroke: red;
+        fill: red;
+    }
+
+}
+
+.logo {
+    cursor: pointer;
+}
+

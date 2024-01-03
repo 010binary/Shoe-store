@@ -1,0 +1,68 @@
+// footer styles
+footer {
+    padding: 10px 100px;
+    padding-top: 40px;
+    color: aliceblue;
+    background-color: #333333;
+
+    span {
+        display: block;
+    }
+
+    .footer__info {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 50px;
+
+        .footer__left {
+            .address {
+                margin-top: 20px;
+
+                span {
+                    text-transform: capitalize;
+                    font-family: $primary-font;
+                }
+            }
+
+            .contact {
+                padding-top: 20px;
+
+                span {
+                    padding-top: 10px;
+
+                    a {
+
+                        color: aliceblue;
+                        text-transform: none;
+                    }
+
+                }
+            }
+        }
+
+        .footer__right {
+            display: flex;
+            width: 30%;
+            justify-content: space-between;
+            text-transform: uppercase;
+
+            section {
+                span {
+                    padding-top: 5px;
+
+                    a {
+                        color: aliceblue;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+
+    .copyright {
+        text-align: center;
+        border-top: 1px solid rgb(138, 138, 140);
+        padding-top: 20px;
+        font-family: $primary-font;
+    }
+}

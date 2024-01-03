@@ -1,0 +1,46 @@
+.heropage {
+    position: relative;
+    padding: 10px 100px;
+    display: block;
+    margin: 0 auto 100px auto;
+
+
+    .centered_text {
+        font-family: $secondary-font;
+        font-size: 18.75rem;
+        font-weight: bold;
+        text-align: center;
+        padding: 10% 0 0 0;
+        color: $accent-color;
+
+    }
+
+    .left_text,
+    .right_text {
+        font-family: $secondary-font;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 1.4rem;
+        letter-spacing: 2px;
+    }
+
+    .left_text {
+        position: absolute;
+        top: 9rem;
+        left: 23rem;
+    }
+
+    .right_text {
+        position: absolute;
+        right: 20rem;
+        bottom: 3rem;
+    }
+
+    .display__shoe {
+        position: absolute;
+        height: min-content;
+        top: 0;
+        left: 5rem;
+    }
+
+}
