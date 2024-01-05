@@ -87,17 +87,18 @@
                 align-items: center;
             }
         }
+    }
 
-        .prev,
-        .next {
-            display: none;
-        }
+    .prev,
+    .next {
+        display: none;
+    }
 
-        footer {
-            .footer__right {
-                section {
-                    display: none;
-                }
+    footer {
+        .footer__right {
+            section {
+                display: none;
             }
         }
     }
+}
