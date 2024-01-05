@@ -666,6 +666,15 @@ footer .copyright {
     margin-top: 50px;
     margin-bottom: 50px;
   }
+  main .shop .categories {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  main .shop .display {
+    justify-content: center;
+    align-items: center;
+  }
   .prev,
   .next {
     display: none;

@@ -67,12 +67,28 @@
             }
         }
     }
-main{
-    .heropage{
-        margin-top: 50px;
-        margin-bottom: 50px;
+
+    main {
+        .heropage {
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+
+        .shop {
+
+            .categories {
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+            }
+
+            .display {
+                justify-content: center;
+                align-items: center;
+            }
+        }
     }
-}
+
     .prev,
     .next {
         display: none;
