@@ -17,13 +17,27 @@ document.addEventListener('DOMContentLoaded', function () {
     const scrollLeftBtn = document.querySelector('.prev');
     const scrollRightBtn = document.querySelector('.next');
 
-    const scrollStep = 50; 
+    const scrollStep = 50;
 
     scrollLeftBtn.addEventListener('click', function () {
-        scrollContent.scrollLeft -= scrollStep; 
+        scrollContent.scrollLeft -= scrollStep;
     });
 
     scrollRightBtn.addEventListener('click', function () {
-        scrollContent.scrollLeft += scrollStep; 
+        scrollContent.scrollLeft += scrollStep;
     });
 });
+
+
+const toggleIcon = document.querySelector('.toggle-icon');
+const leftNav = document.querySelector('.left_nav');
+
+toggleIcon.addEventListener('click', function () {
+    leftNav.classList.toggle('active');
+    if (leftNav.classList.contains('active')) {
+        leftNav.style.transform = 'translateX(0)';
+    } else {
+        leftNav.style.transform = 'translateX(-100%)';
+    }
+});
+

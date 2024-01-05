@@ -14,7 +14,6 @@ header {
         place-content: center;
 
         .TopHead {
-
             margin: auto 0;
             text-align: center;
         }
@@ -23,9 +22,10 @@ header {
     nav {
         display: flex;
         justify-content: space-between;
+        align-items: center;
         width: 100%;
         overflow: hidden;
-        padding: 10px 100px;
+        padding: 0.781vw 7.813vw;
         border-bottom: 1px solid gray;
 
         .left_nav {
@@ -65,6 +65,13 @@ header {
             display: flex;
             justify-content: space-between;
             align-items: center;
+        }
+
+        .fa-regular.fa-compass.fa-2xl {
+            padding: 0;
+            color: #000000;
+            display: none;
+            padding-bottom: 5px;
         }
     }
 }

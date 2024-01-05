@@ -12,6 +12,7 @@ $accent-color: rgba(74, 76, 108, 0.17);
 $primary-font: 'Acme', Verdana, 'Segoe UI', sans-serif;
 $secondary-font: 'Teko', Verdana, 'Segoe UI', sans-serif;
 $image-font: 'Abel', Verdana, 'Segoe UI', sans-serif;
+$moblie-value: 850px;
 
 *,
 *::after,
@@ -56,4 +57,11 @@ $image-font: 'Abel', Verdana, 'Segoe UI', sans-serif;
 // cancel the Horizontal scroll 
 ::-webkit-scrollbar {
     display: none;
+}
+
+@mixin mobile {
+    @media (max-width: $moblie-value) {
+        @content;
+
+    }
 }
