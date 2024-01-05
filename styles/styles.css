@@ -327,20 +327,20 @@ footer .copyright {
 .images__fa .left__img section,
 .images__fa .right__img section {
   position: absolute;
-  left: 30px;
-  bottom: 80px;
+  left: 8%;
+  bottom: 8%;
 }
 .images__fa .left__img section .design,
 .images__fa .right__img section .design {
   font-family: "Abel", Verdana, "Segoe UI", sans-serif;
-  font-size: 3.5rem;
+  font-size: 5vmin;
   color: #fff;
 }
 .images__fa .left__img section button,
 .images__fa .right__img section button {
-  padding: 10px 30px;
-  border: 3px solid #fff;
-  font-size: 1.5rem;
+  padding: 1vmin 3vmin;
+  border: 0.3vmin solid #fff;
+  font-size: 3vmin;
   text-transform: capitalize;
   color: #fff;
   transition: 0.3s ease-in-out;
@@ -357,7 +357,7 @@ footer .copyright {
   width: 100%;
 }
 .images__fa .right__img {
-  padding-top: 150px;
+  padding-top: 15vmin;
 }
 
 .best__selling {
