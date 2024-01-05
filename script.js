@@ -41,3 +41,15 @@ toggleIcon.addEventListener('click', function () {
     }
 });
 
+// Function to check if the clicked element is inside the leftNav
+function isClickedInsideNav(element) {
+    return leftNav.contains(element) || element === toggleIcon;
+}
+
+// Event listener to handle clicks outside the leftNav
+window.addEventListener('click', function (event) {
+    if (!isClickedInsideNav(event.target)) {
+        leftNav.classList.remove('active');
+        leftNav.style.transform = 'translateX(-100%)';
+    }
+});
