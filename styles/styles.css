@@ -150,7 +150,7 @@ header nav .fa-regular.fa-compass.fa-2xl {
 
 .shoe__card {
   border-radius: 10px;
-  width: 250px;
+  width: 230px;
   transition: 500ms ease;
   cursor: pointer;
   margin-top: 30px;
@@ -161,12 +161,20 @@ header nav .fa-regular.fa-compass.fa-2xl {
   background-color: rgb(216, 216, 216);
   position: relative;
   display: flex;
+  overflow: hidden;
   flex-direction: column;
   justify-content: space-between;
   border-radius: 10px 10px 0 0;
   transition: 500ms ease;
 }
+.shoe__card .shop__img img {
+  width: 100%;
+  height: 100%;
+}
 .shoe__card .shop__img .icon {
+  position: absolute;
+  top: 5%;
+  width: 100%;
   display: flex;
   padding: 10px;
   justify-content: space-between;
@@ -183,6 +191,9 @@ header nav .fa-regular.fa-compass.fa-2xl {
   background-color: black;
   text-align: center;
   visibility: hidden;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 .shoe__card .shop__img .buy a {
   display: flex;
