@@ -675,6 +675,13 @@ footer .copyright {
     justify-content: center;
     align-items: center;
   }
+  main .proposition {
+    justify-content: center;
+  }
+  main .proposition .customer_care,
+  main .proposition .Warranty {
+    padding: 20px;
+  }
   .prev,
   .next {
     display: none;

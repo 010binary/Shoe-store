@@ -87,6 +87,15 @@
                 align-items: center;
             }
         }
+
+        .proposition {
+            justify-content: center;
+
+            .customer_care,
+            .Warranty {
+                padding: 20px;
+            }
+        }
     }
 
     .prev,
