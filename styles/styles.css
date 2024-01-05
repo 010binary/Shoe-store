@@ -682,6 +682,9 @@ footer .copyright {
   main .proposition .Warranty {
     padding: 20px;
   }
+  .shoe__card {
+    width: 300px;
+  }
   .prev,
   .next {
     display: none;
