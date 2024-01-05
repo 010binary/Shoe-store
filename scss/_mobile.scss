@@ -1,5 +1,11 @@
 @include mobile {
     header {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        z-index: 999;
+        background-color: $white;
+
         nav {
             display: flex;
             justify-content: space-between;
@@ -61,7 +67,12 @@
             }
         }
     }
-
+main{
+    .heropage{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+}
     .prev,
     .next {
         display: none;

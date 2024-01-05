@@ -115,7 +115,7 @@ header nav .fa-regular.fa-compass.fa-2xl {
 }
 .heropage .centered_text {
   font-family: "Teko", Verdana, "Segoe UI", sans-serif;
-  font-size: 18.75rem;
+  font-size: 22vw;
   font-weight: bold;
   text-align: center;
   padding: 10% 0 0 0;
@@ -126,24 +126,26 @@ header nav .fa-regular.fa-compass.fa-2xl {
   font-family: "Teko", Verdana, "Segoe UI", sans-serif;
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 1.4rem;
+  font-size: 3vmin;
   letter-spacing: 2px;
 }
 .heropage .left_text {
   position: absolute;
-  top: 9rem;
-  left: 23rem;
+  top: 20%;
+  left: 23%;
 }
 .heropage .right_text {
   position: absolute;
-  right: 20rem;
-  bottom: 3rem;
+  right: 20%;
+  bottom: 5%;
 }
 .heropage .display__shoe {
   position: absolute;
   height: min-content;
   top: 0;
-  left: 5rem;
+  left: 5%;
+  width: 71.797vw;
+  height: 49.844vw;
 }
 
 .shoe__card {
@@ -607,6 +609,13 @@ footer .copyright {
 }
 
 @media (max-width: 850px) {
+  header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: #fff;
+  }
   header nav {
     display: flex;
     justify-content: space-between;
@@ -652,6 +661,10 @@ footer .copyright {
   header nav .fa-regular.fa-compass.fa-2xl {
     display: block;
     cursor: pointer;
+  }
+  main .heropage {
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
   .prev,
   .next {

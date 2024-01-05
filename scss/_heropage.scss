@@ -3,11 +3,12 @@
     padding: 0.781vw 7.813vw;
     display: block;
     margin: 0 auto 100px auto;
+    // overflow-x: scroll;
 
 
     .centered_text {
         font-family: $secondary-font;
-        font-size: 18.75rem;
+        font-size: 22vw;
         font-weight: bold;
         text-align: center;
         padding: 10% 0 0 0;
@@ -20,27 +21,29 @@
         font-family: $secondary-font;
         text-transform: uppercase;
         font-weight: bold;
-        font-size: 1.4rem;
+        font-size: 3vmin;
         letter-spacing: 2px;
     }
 
     .left_text {
         position: absolute;
-        top: 9rem;
-        left: 23rem;
+        top: 20%;
+        left: 23%;
     }
 
     .right_text {
         position: absolute;
-        right: 20rem;
-        bottom: 3rem;
+        right: 20%;
+        bottom: 5%;
     }
 
     .display__shoe {
         position: absolute;
         height: min-content;
         top: 0;
-        left: 5rem;
+        left: 5%;
+        width: 71.797vw;
+        height: 49.844vw;
     }
 
 }
