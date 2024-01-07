@@ -50,6 +50,6 @@ function isClickedInsideNav(element) {
 window.addEventListener('click', function (event) {
     if (!isClickedInsideNav(event.target)) {
         leftNav.classList.remove('active');
-        leftNav.style.transform = 'translateX(-100%)';
+        // leftNav.style.transform = 'translateX(-100%)';
     }
 });
