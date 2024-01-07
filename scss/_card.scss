@@ -102,3 +102,11 @@
         border: 1px solid black;
     }
 }
+
+@include mobile {
+.shoe__card{
+ .shop__img {
+height:220px
+}
+}
+}
