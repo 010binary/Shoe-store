@@ -727,6 +727,13 @@ main .like:hover path {
   fill: red;
 }
 
+.shoe__card{
+ .shop__img {
+height:250px;
+}
+}
+}
+
 .logo {
   cursor: pointer;
 }/*# sourceMappingURL=styles.css.map */
