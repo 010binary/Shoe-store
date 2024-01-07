@@ -104,9 +104,9 @@
 }
 
 @include mobile {
-.shoe__card{
- .shop__img {
-height:250px;
-}
-}
+    .shoe__card {
+        .shop__img {
+            height: 250px;
+        }
+    }
 }

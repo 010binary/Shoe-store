@@ -234,6 +234,11 @@ header nav .fa-regular.fa-compass.fa-2xl {
   border: 1px solid black;
 }
 
+@media (max-width: 850px) {
+  .shoe__card .shop__img {
+    height: 250px;
+  }
+}
 footer {
   padding: 0.781vw 7.813vw;
   padding-top: 40px;
@@ -725,13 +730,6 @@ main .like:hover path {
   transition: 0.1s ease-in;
   stroke: red;
   fill: red;
-}
-
-.shoe__card{
- .shop__img {
-height:250px;
-}
-}
 }
 
 .logo {
