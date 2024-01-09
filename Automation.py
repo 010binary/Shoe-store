@@ -35,6 +35,12 @@ shoe_names = [
     "Nike LeBron XXI Tahitian.webp",
     "Nike Air Jordan 1.webp",
     "Nike Pegasus 40.webp",
+    "Air jordan 4 craft olive.webp",
+    "Jordan winterized 6 rings.webp",
+    "Jordan jumpman pro.webp",
+    "Jordan 6 rings.webp",
+    "Air Jordan XXXVIII Low Fundamental.webp",
+    "Kaptir 3.0 Wide.avif",
 ]
 
 
@@ -52,8 +58,8 @@ def generate_reviews():
 shoes_data = []
 for shoe_name in shoe_names:
     # Replacing non-alphanumeric characters with spaces and converting to title case
-    formatted_name = re.sub(r'\.\w+$', '', shoe_name).title()
-    formatted_name = formatted_name.replace("-", " ") 
+    formatted_name = re.sub(r"\.\w+$", "", shoe_name).title()
+    formatted_name = formatted_name.replace("-", " ")
 
     # Generating random prices
     discounted_price = generate_prices()
@@ -66,8 +72,8 @@ for shoe_name in shoe_names:
         ((original_price - discounted_price) / original_price) * 100
     )
 
-    # Randomly choosing liked stars between 1 and 5
-    liked_stars = random.randint(1, 5)
+    # Randomly choosing liked stars between 3 and 5
+    liked_stars = random.randint(3, 5)
 
     # Generating random reviews
     reviews = generate_reviews()
