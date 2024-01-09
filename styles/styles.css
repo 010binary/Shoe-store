@@ -706,8 +706,8 @@ footer .copyright {
     padding: 20px;
   }
   .shoe__card {
-    width: 300px;
-    height: 300px;
+    width: 280px;
+    height: fit-content;
   }
   .prev,
   .next {

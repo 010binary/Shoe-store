@@ -75,6 +75,7 @@
                 display: flex;
                 align-items: center;
                 justify-content: space-evenly;
+
             }
 
             .display {
@@ -106,8 +107,8 @@
     }
 
     .shoe__card {
-        width: 300px;
-        height: 300px;
+        width: 280px;
+        height: fit-content;
     }
 
     .prev,
