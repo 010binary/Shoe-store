@@ -688,15 +688,12 @@ footer .copyright {
     justify-content: space-evenly;
   }
   main .shop .display {
-    flex-direction: row;
     overflow-x: hidden;
     scroll-behavior: smooth;
     -ms-overflow-style: none;
-    scrollbar-width: none;
   }
   main .shop .display .shoe__card {
     flex: 0 0 300px;
-    margin-right: 10px;
   }
   main .proposition {
     justify-content: center;

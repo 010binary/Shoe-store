@@ -79,15 +79,12 @@
             }
 
             .display {
-                flex-direction: row;
                 overflow-x: hidden;
                 scroll-behavior: smooth;
                 -ms-overflow-style: none;
-                scrollbar-width: none;
 
                 .shoe__card {
                     flex: 0 0 300px;
-                    margin-right: 10px;
 
                 }
 
