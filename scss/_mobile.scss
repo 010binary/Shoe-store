@@ -9,6 +9,7 @@
         nav {
             display: flex;
             justify-content: space-between;
+            
 
             .left_nav {
                 display: none;
@@ -59,6 +60,8 @@
             .fa-regular.fa-compass.fa-2xl {
                 display: block;
                 cursor: pointer;
+                padding-right: 0;
+                width: 30px;
             }
         }
     }
@@ -70,6 +73,7 @@
         }
 
         .shop {
+
 
             .categories {
                 display: flex;
@@ -83,9 +87,13 @@
                 scroll-behavior: smooth;
                 -ms-overflow-style: none;
 
+
                 .shoe__card {
                     flex: 0 0 300px;
 
+                    .shop__img {
+                        height: 290px;
+                    }
                 }
 
 
@@ -104,7 +112,7 @@
     }
 
     .shoe__card {
-        width: 280px;
+        width: 100%;
         height: fit-content;
     }
 

@@ -677,6 +677,8 @@ footer .copyright {
   header nav .fa-regular.fa-compass.fa-2xl {
     display: block;
     cursor: pointer;
+    padding-right: 0;
+    width: 30px;
   }
   main .heropage {
     margin-top: 50px;
@@ -695,6 +697,9 @@ footer .copyright {
   main .shop .display .shoe__card {
     flex: 0 0 300px;
   }
+  main .shop .display .shoe__card .shop__img {
+    height: 290px;
+  }
   main .proposition {
     justify-content: center;
   }
@@ -703,7 +708,7 @@ footer .copyright {
     padding: 20px;
   }
   .shoe__card {
-    width: 280px;
+    width: 100%;
     height: fit-content;
   }
   .prev,
