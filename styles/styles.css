@@ -689,7 +689,7 @@ footer .copyright {
   }
   main .shop .display {
     flex-direction: row;
-    overflow-x: auto;
+    overflow-x: hidden;
     scroll-behavior: smooth;
     -ms-overflow-style: none;
     scrollbar-width: none;
