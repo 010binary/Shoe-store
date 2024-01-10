@@ -6,22 +6,28 @@
         z-index: 999;
         background-color: $white;
 
+        .dropdown-content {
+            left: 5%;
+            width: 90%;
+        }
+
         nav {
             display: flex;
             justify-content: space-between;
-            
+
 
             .left_nav {
                 display: none;
             }
 
             .left_nav.active {
+                padding: 0 7.813vw;
                 display: block;
                 position: fixed;
+                box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
                 top: 70px;
-                bottom: 0;
-                left: 0;
-                width: 100vw; // JUst incase
+                left: 5%;
+                width: 90%;
                 height: 50vh;
                 background-color: $white;
                 z-index: 999;
@@ -86,6 +92,7 @@
                 overflow-x: hidden;
                 scroll-behavior: smooth;
                 -ms-overflow-style: none;
+                justify-content: center;
 
 
                 .shoe__card {
@@ -112,7 +119,6 @@
     }
 
     .shoe__card {
-        width: 100%;
         height: fit-content;
     }
 

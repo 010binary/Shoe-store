@@ -53,3 +53,38 @@ window.addEventListener('click', function (event) {
         // leftNav.style.transform = 'translateX(-100%)';
     }
 });
+
+//dropdown
+const dropdown = document.querySelector(".dropbtn");
+const dropContent = document.querySelector(".dropdown-content");
+
+dropdown.addEventListener(
+    'click', function () {
+        dropContent.classList.toggle("opened-drop");
+        if (dropContent.classList.contains("opened-drop")) {
+            dropContent.style.display = 'block'
+        } else {
+            dropContent.style.display = 'none'
+        }
+    }
+)
+
+const redir = document.querySelector(".to-signin");
+const signupForm = document.querySelector(".sign-up");
+const signinForm = document.querySelector(".sign-in");
+const signuptext = document.querySelector(".signup__text");
+
+const toggleForms = (showSignup) => {
+    signupForm.style.display = showSignup ? 'flex' : 'none';
+    signinForm.style.display = showSignup ? 'none' : 'flex';
+};
+
+redir.addEventListener('click', () => {
+    toggleForms(false);
+});
+
+signuptext.addEventListener('click', () => {
+    toggleForms(true);
+});
+
+

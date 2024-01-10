@@ -1,0 +1,23 @@
+.dropdown {
+    overflow: hidden;
+    width: 100%;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+.dropdown-content {
+    position: absolute;
+    right: 5%;
+    background-color: #fbfbfb;
+    border-radius: 20px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    width: 350px;
+}
+
+
+.dropdown:hover .dropdown-content {
+    background-color: aqua;
+}
