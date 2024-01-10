@@ -1,5 +1,20 @@
 // back to top function for logo 
 const logos = document.querySelectorAll(".logo");
+const redir = document.querySelector(".to-signin");
+const signupForm = document.querySelector(".sign-up");
+const signinForm = document.querySelector(".sign-in");
+const signuptext = document.querySelector(".signup__text");
+// scroll-horizontal
+const scrollContainer = document.querySelector('.best__selling');
+const scrollContent = document.querySelector('.gallery__container');
+const scrollLeftBtn = document.querySelector('.prev');
+const scrollRightBtn = document.querySelector('.next');
+//nav icon
+const toggleIcon = document.querySelector('.toggle-icon');
+const leftNav = document.querySelector('.left_nav');
+//dropdown
+const dropdown = document.querySelector(".dropbtn");
+const dropContent = document.querySelector(".dropdown-content");
 
 logos.forEach(logo => {
     logo.addEventListener("click", () => {
@@ -12,10 +27,6 @@ logos.forEach(logo => {
 
 // Scroll functionality for the best selling section
 document.addEventListener('DOMContentLoaded', function () {
-    const scrollContainer = document.querySelector('.best__selling');
-    const scrollContent = document.querySelector('.gallery__container');
-    const scrollLeftBtn = document.querySelector('.prev');
-    const scrollRightBtn = document.querySelector('.next');
 
     const scrollStep = 50;
 
@@ -29,8 +40,6 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 
-const toggleIcon = document.querySelector('.toggle-icon');
-const leftNav = document.querySelector('.left_nav');
 
 toggleIcon.addEventListener('click', function () {
     leftNav.classList.toggle('active');
@@ -46,17 +55,6 @@ function isClickedInsideNav(element) {
     return leftNav.contains(element) || element === toggleIcon;
 }
 
-// Event listener to handle clicks outside the leftNav
-window.addEventListener('click', function (event) {
-    if (!isClickedInsideNav(event.target)) {
-        leftNav.classList.remove('active');
-        // leftNav.style.transform = 'translateX(-100%)';
-    }
-});
-
-//dropdown
-const dropdown = document.querySelector(".dropbtn");
-const dropContent = document.querySelector(".dropdown-content");
 
 dropdown.addEventListener(
     'click', function () {
@@ -69,22 +67,32 @@ dropdown.addEventListener(
     }
 )
 
-const redir = document.querySelector(".to-signin");
-const signupForm = document.querySelector(".sign-up");
-const signinForm = document.querySelector(".sign-in");
-const signuptext = document.querySelector(".signup__text");
+
 
 const toggleForms = (showSignup) => {
     signupForm.style.display = showSignup ? 'flex' : 'none';
     signinForm.style.display = showSignup ? 'none' : 'flex';
 };
 
-redir.addEventListener('click', () => {
+redir.addEventListener('click', (event) => {
+    event.stopPropagation(); // Prevent the click event from reaching the window
     toggleForms(false);
 });
 
-signuptext.addEventListener('click', () => {
+signuptext.addEventListener('click', (event) => {
+    event.stopPropagation(); // Prevent the click event from reaching the window
     toggleForms(true);
 });
 
-
+// Clicking outside the signupForm or signinForm or dropdown will hide them
+window.addEventListener('click', function (event) {
+    if (!signupForm.contains(event.target)) {
+        signupForm.style.display = 'none';
+    }
+    if (!signinForm.contains(event.target)) {
+        signinForm.style.display = 'none';
+    }
+    if (!isClickedInsideNav(event.target)) {
+        leftNav.classList.remove('active');
+    }
+});
