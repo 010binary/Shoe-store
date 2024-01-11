@@ -92,6 +92,7 @@
   align-items: center;
   gap: 10px;
   justify-content: space-between;
+  margin-top: 10px;
 }
 
 .flex-row > div > label {
@@ -290,6 +291,11 @@ header nav .right_nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+header nav .right_nav .user,
+header nav .right_nav .likes,
+header nav .right_nav .cart {
+  cursor: pointer;
 }
 header nav .fa-regular.fa-compass.fa-2xl {
   padding: 0;

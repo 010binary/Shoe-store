@@ -33,7 +33,7 @@ header {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            
+
 
             ul {
                 width: 85%;
@@ -66,6 +66,12 @@ header {
             display: flex;
             justify-content: space-between;
             align-items: center;
+
+            .user,
+            .likes,
+            .cart {
+                cursor: pointer;
+            }
         }
 
         .fa-regular.fa-compass.fa-2xl {

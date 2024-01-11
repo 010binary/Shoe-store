@@ -55,7 +55,6 @@ function isClickedInsideNav(element) {
     return leftNav.contains(element) || element === toggleIcon;
 }
 
-
 dropdown.addEventListener(
     'click', function () {
         dropContent.classList.toggle("opened-drop");
@@ -66,7 +65,6 @@ dropdown.addEventListener(
         }
     }
 )
-
 
 
 const toggleForms = (showSignup) => {
@@ -88,9 +86,6 @@ signuptext.addEventListener('click', (event) => {
 window.addEventListener('click', function (event) {
     if (!signupForm.contains(event.target)) {
         signupForm.style.display = 'none';
-    }
-    if (!signinForm.contains(event.target)) {
-        signinForm.style.display = 'none';
     }
     if (!isClickedInsideNav(event.target)) {
         leftNav.classList.remove('active');
