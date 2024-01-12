@@ -1,0 +1,205 @@
+{% extends 'base.html' %} {% block title %} Home {% endblock %}
+{% block body %}
+    <main>
+      <div class="heropage">
+        <img
+          src="{{ url_for('static', filename='image/SVG_images/shoe.svg') }}"
+          alt="shoe"
+          class="display__shoe" />
+
+        <p class="centered_text">SHOP ALL</p>
+        <p class="left_text">ADJUstable</p>
+        <p class="right_text">Soft Pad</p>
+      </div>
+
+      <!-- page -->
+      <div class="shop">
+        <section class="categories">
+          <a href="#" class="coloured"> NEW ARRIVALS </a>
+          <a href="#"> WHAT’S TRENDING </a>
+        </section>
+
+        <!-- Card section -->
+        <div class="display">
+          <!-- shoe card -->
+    {% include "./components/ShoeCard.html" %}
+          <!-- shoe card -->
+    {% include "./components/ShoeCard.html" %}
+          <!-- shoe card -->
+    {% include "./components/ShoeCard.html" %}
+          <!-- shoe card -->
+    {% include "./components/ShoeCard.html" %}
+          <!-- shoe card -->
+    {% include "./components/ShoeCard.html" %}
+         <!-- shoe card -->
+    {% include "./components/ShoeCard.html" %}
+          <!-- shoe card -->
+    {% include "./components/ShoeCard.html" %}
+          <!-- shoe card -->
+    {% include "./components/ShoeCard.html" %}
+          <!-- shoe card -->
+    {% include "./components/ShoeCard.html" %}
+          <!-- shoe card -->
+    {% include "./components/ShoeCard.html" %}
+        </div>
+      </div>
+
+      <!-- Image display -->
+      <div class="images__fa">
+        <!-- left image  -->
+        <section class="left__img">
+          <img src="./image/Display_Images/display.jpg" alt="Images" />
+          <section>
+            <p class="design">FAMOUS MUICHES</p>
+            <a href="shop.html"> <button>shop now</button></a>
+          </section>
+        </section>
+
+        <!-- right image  -->
+        <section class="right__img">
+          <img src="./image/Display_Images/replay.jpg" alt="Images" />
+          <section>
+            <p class="design">SPECIAL COLLECTION</p>
+            <a href="shop.html"> <button>shop now</button></a>
+          </section>
+        </section>
+      </div>
+
+      <!-- best selling section  -->
+      <div class="best__selling">
+        <section class="best__selling__header">
+          <p>best <span>sell</span>ing</p>
+          <section class="buttons">
+            <button class="prev">
+              prev
+              <img src="./image/SVG_images/Prev.svg" alt="prev" />
+            </button>
+            <button class="next">
+              next
+              <img src="./image/SVG_images/Next.svg" alt="next" />
+            </button>
+          </section>
+        </section>
+        <section class="gallery__container">
+          <!-- shoe card -->
+    {% include "./components/ShoeCard.html" %}
+          <!-- shoe card -->
+    {% include "./components/ShoeCard.html" %}
+          <!-- shoe card -->
+    {% include "./components/ShoeCard.html" %}
+          <!-- shoe card -->
+    {% include "./components/ShoeCard.html" %}
+          <!-- shoe card -->
+    {% include "./components/ShoeCard.html" %}
+          <!-- shoe card -->
+    {% include "./components/ShoeCard.html" %}
+          <!-- shoe card -->
+    {% include "./components/ShoeCard.html" %}
+          <!-- shoe card -->
+    {% include "./components/ShoeCard.html" %}
+          <!-- shoe card -->
+    {% include "./components/ShoeCard.html" %}
+          <!-- shoe card -->
+    {% include "./components/ShoeCard.html" %}
+          <!-- shoe card -->
+    {% include "./components/ShoeCard.html" %}
+          <!-- shoe card -->
+    {% include "./components/ShoeCard.html" %}
+          <!-- shoe card -->
+    {% include "./components/ShoeCard.html" %}
+          <!-- shoe card -->
+    {% include "./components/ShoeCard.html" %}
+          <!-- shoe card -->
+    {% include "./components/ShoeCard.html" %}
+          <!-- shoe card -->
+    {% include "./components/ShoeCard.html" %}
+          <!-- shoe card -->
+    {% include "./components/ShoeCard.html" %}
+          <!-- shoe card -->
+    {% include "./components/ShoeCard.html" %}
+          <!-- shoe card -->
+    {% include "./components/ShoeCard.html" %}
+        <!-- shoe card -->
+    {% include "./components/ShoeCard.html" %}
+          <!-- shoe card -->
+    {% include "./components/ShoeCard.html" %}
+          <!-- shoe card -->
+    {% include "./components/ShoeCard.html" %}
+        </section>
+        <section class="shop__btn">
+          <a href="shop.html">Shop now</a>
+        </section>
+      </div>
+
+      <!-- picture categories -->
+      <div class="picture__display">
+        <section class="sect__img1">
+          <img
+            src="./image/Section_Images/sectimage1.jpg"
+            alt="show case"
+            loading="lazy" />
+          <section class="picture__btn">
+            <a href="shop.html">Kids</a>
+          </section>
+        </section>
+        <section class="sect__img2">
+          <img
+            src="./image/Section_Images/sectimage2.jpg"
+            alt="show case"
+            loading="lazy" />
+          <section class="picture__btn">
+            <a href="shop.html">Women</a>
+          </section>
+        </section>
+        <section class="sect__img3">
+          <img
+            src="./image/Section_Images/sectimage3.jpg"
+            alt="show case"
+            loading="lazy" />
+          <section class="picture__btn">
+            <a href="shop.html">Sneakers</a>
+          </section>
+        </section>
+        <section class="sect__img4">
+          <img
+            src="./image/Section_Images/sectimage4.jpg"
+            alt="show case"
+            loading="lazy" />
+          <section class="picture__btn">
+            <a href="shop.html">Boots</a>
+          </section>
+        </section>
+        <section class="sect__img5">
+          <img
+            src="./image/Section_Images/sectimage5.jpg"
+            alt="show case"
+            loading="lazy" />
+          <section class="picture__btn">
+            <a href="shop.html">Men</a>
+          </section>
+        </section>
+      </div>
+
+      <!-- value proposition section  -->
+      <div class="proposition mx-b">
+        <section class="delivery">
+          <img src="./image/SVG_images/delivery.svg" alt="delivery icon" />
+          <p class="title">FREE AND FAST DELIVERY</p>
+          <p class="title_description">
+            Free delivery for all orders over $140
+          </p>
+        </section>
+        <section class="customer_care">
+          <img src="./image/SVG_images/customer.svg" alt="customer icon" />
+          <p class="title">24/7 CUSTOMER SERVICE</p>
+          <p class="title_description">Friendly 24/7 customer support</p>
+        </section>
+        <section class="Warranty">
+          <img src="./image/SVG_images/moneywarrent.svg" alt="money warranty" />
+          <p class="title">MONEY BACK GUARANTEE</p>
+          <p class="title_description">We return money within 30 days</p>
+        </section>
+      </div>
+    </main>
+
+{%endblock %}
