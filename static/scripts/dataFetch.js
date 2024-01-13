@@ -53,10 +53,10 @@ document.addEventListener("DOMContentLoaded", async function () {
                 let numemptyStar = 5 - liked_stars;
                 let starsHTML = '';
                 for (let i = 0; i < liked_stars; i++) {
-                    starsHTML += '<img src="./image/SVG_images/star.svg" alt="rating" />';
+                    starsHTML += '<img src="{{ url_for(\'static\',filename=\'image\/SVG_images\/star.svg\') }}" alt="rating" />';
                 }
                 for (let i = 0; i < numemptyStar; i++) {
-                    starsHTML += '<img src="./image/SVG_images/emptyStar.svg" alt="rating" />';
+                    starsHTML += '<img src="{{ url_for(\'static\',filename=\'image\/SVG_images\/emptyStar.svg\') }}" alt="rating" />';
                 }
                 ratings[index].innerHTML = starsHTML;
             }

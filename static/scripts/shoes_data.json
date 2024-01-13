@@ -1,335 +1,335 @@
 [
     {
         "name": "Adidas Adadifom Climacool Red",
-        "Discountprice": 135,
-        "originalprice": 291,
-        "discount_percentage": 54,
-        "liked_stars": 5,
-        "reviews": 113,
-        "PATH": "./image/Product_images/adidas AdADIFOM CLIMACOOL red.avif"
+        "Discountprice": 122,
+        "originalprice": 319,
+        "discount_percentage": 62,
+        "liked_stars": 4,
+        "reviews": 440,
+        "PATH": "/static/image/Product_images/adidas AdADIFOM CLIMACOOL red.avif"
     },
     {
         "name": "Nike Air Jordan Iii Retro",
-        "Discountprice": 385,
-        "originalprice": 444,
-        "discount_percentage": 13,
-        "liked_stars": 5,
-        "reviews": 484,
-        "PATH": "./image/Product_images/nike air jordan iii retro.webp"
+        "Discountprice": 402,
+        "originalprice": 593,
+        "discount_percentage": 32,
+        "liked_stars": 3,
+        "reviews": 567,
+        "PATH": "/static/image/Product_images/nike air jordan iii retro.webp"
     },
     {
         "name": "Nike Air Jordan Mid",
-        "Discountprice": 161,
-        "originalprice": 315,
-        "discount_percentage": 49,
-        "liked_stars": 3,
-        "reviews": 189,
-        "PATH": "./image/Product_images/NIke-air-jordan-mid.webp"
+        "Discountprice": 158,
+        "originalprice": 291,
+        "discount_percentage": 46,
+        "liked_stars": 5,
+        "reviews": 117,
+        "PATH": "/static/image/Product_images/NIke-air-jordan-mid.webp"
     },
     {
         "name": "Adidas Adifom Climacool",
-        "Discountprice": 297,
-        "originalprice": 480,
-        "discount_percentage": 38,
+        "Discountprice": 257,
+        "originalprice": 363,
+        "discount_percentage": 29,
         "liked_stars": 5,
-        "reviews": 99,
-        "PATH": "./image/Product_images/adidas ADIFOM CLIMACOOL.avif"
+        "reviews": 170,
+        "PATH": "/static/image/Product_images/adidas ADIFOM CLIMACOOL.avif"
     },
     {
         "name": "Nike Air Jordan Mid",
-        "Discountprice": 216,
-        "originalprice": 322,
-        "discount_percentage": 33,
-        "liked_stars": 4,
-        "reviews": 614,
-        "PATH": "./image/Product_images/NIke air jordan mid.webp"
+        "Discountprice": 168,
+        "originalprice": 285,
+        "discount_percentage": 41,
+        "liked_stars": 5,
+        "reviews": 128,
+        "PATH": "/static/image/Product_images/NIke air jordan mid.webp"
     },
     {
         "name": "Nike Free Metcon 5",
-        "Discountprice": 154,
-        "originalprice": 292,
-        "discount_percentage": 47,
-        "liked_stars": 4,
-        "reviews": 145,
-        "PATH": "./image/Product_images/NIke-Free Metcon 5.webp"
+        "Discountprice": 321,
+        "originalprice": 493,
+        "discount_percentage": 35,
+        "liked_stars": 3,
+        "reviews": 370,
+        "PATH": "/static/image/Product_images/NIke-Free Metcon 5.webp"
     },
     {
         "name": "Adidas Crazy 8(2)",
-        "Discountprice": 405,
-        "originalprice": 599,
+        "Discountprice": 288,
+        "originalprice": 422,
         "discount_percentage": 32,
-        "liked_stars": 4,
-        "reviews": 212,
-        "PATH": "./image/Product_images/adidas CRAZY 8(2).avif"
+        "liked_stars": 5,
+        "reviews": 239,
+        "PATH": "/static/image/Product_images/adidas CRAZY 8(2).avif"
     },
     {
         "name": "Nike Air Jordan Xiv",
-        "Discountprice": 338,
-        "originalprice": 452,
-        "discount_percentage": 25,
+        "Discountprice": 193,
+        "originalprice": 343,
+        "discount_percentage": 44,
         "liked_stars": 3,
-        "reviews": 547,
-        "PATH": "./image/Product_images/Nike Air Jordan XIV.webp"
+        "reviews": 771,
+        "PATH": "/static/image/Product_images/Nike Air Jordan XIV.webp"
     },
     {
         "name": "Nike Free Metcon 9",
-        "Discountprice": 302,
-        "originalprice": 380,
-        "discount_percentage": 21,
-        "liked_stars": 5,
-        "reviews": 506,
-        "PATH": "./image/Product_images/Nike-free-metcon-9.webp"
+        "Discountprice": 402,
+        "originalprice": 480,
+        "discount_percentage": 16,
+        "liked_stars": 3,
+        "reviews": 283,
+        "PATH": "/static/image/Product_images/Nike-free-metcon-9.webp"
     },
     {
         "name": "Adidas Crazy 8",
-        "Discountprice": 212,
-        "originalprice": 277,
-        "discount_percentage": 23,
-        "liked_stars": 5,
-        "reviews": 217,
-        "PATH": "./image/Product_images/adidas CRAZY 8.avif"
+        "Discountprice": 434,
+        "originalprice": 575,
+        "discount_percentage": 25,
+        "liked_stars": 4,
+        "reviews": 787,
+        "PATH": "/static/image/Product_images/adidas CRAZY 8.avif"
     },
     {
         "name": "Nike Air Zoom Crossover 2",
-        "Discountprice": 448,
-        "originalprice": 527,
-        "discount_percentage": 15,
-        "liked_stars": 3,
-        "reviews": 843,
-        "PATH": "./image/Product_images/Nike Air Zoom Crossover 2.webp"
+        "Discountprice": 228,
+        "originalprice": 426,
+        "discount_percentage": 46,
+        "liked_stars": 5,
+        "reviews": 64,
+        "PATH": "/static/image/Product_images/Nike Air Zoom Crossover 2.webp"
     },
     {
         "name": "Nike Free Metcon 9 Easyon",
-        "Discountprice": 201,
-        "originalprice": 256,
-        "discount_percentage": 21,
-        "liked_stars": 5,
-        "reviews": 346,
-        "PATH": "./image/Product_images/Nike-free-metcon-9-easyon.webp"
+        "Discountprice": 334,
+        "originalprice": 406,
+        "discount_percentage": 18,
+        "liked_stars": 4,
+        "reviews": 268,
+        "PATH": "/static/image/Product_images/Nike-free-metcon-9-easyon.webp"
     },
     {
         "name": "Adidas Nmd_V3",
-        "Discountprice": 331,
-        "originalprice": 485,
-        "discount_percentage": 32,
+        "Discountprice": 419,
+        "originalprice": 517,
+        "discount_percentage": 19,
         "liked_stars": 5,
-        "reviews": 720,
-        "PATH": "./image/Product_images/adidas NMD_V3.avif"
+        "reviews": 835,
+        "PATH": "/static/image/Product_images/adidas NMD_V3.avif"
     },
     {
         "name": "Nike Alphafly 3",
-        "Discountprice": 334,
-        "originalprice": 472,
-        "discount_percentage": 29,
-        "liked_stars": 5,
-        "reviews": 782,
-        "PATH": "./image/Product_images/Nike AlphaFly 3.webp"
+        "Discountprice": 416,
+        "originalprice": 554,
+        "discount_percentage": 25,
+        "liked_stars": 4,
+        "reviews": 126,
+        "PATH": "/static/image/Product_images/Nike AlphaFly 3.webp"
     },
     {
         "name": "Nike Lebron Nxxt Gen",
-        "Discountprice": 387,
-        "originalprice": 579,
-        "discount_percentage": 33,
-        "liked_stars": 3,
-        "reviews": 124,
-        "PATH": "./image/Product_images/Nike-lebron-nxxt-gen.webp"
+        "Discountprice": 278,
+        "originalprice": 385,
+        "discount_percentage": 28,
+        "liked_stars": 4,
+        "reviews": 453,
+        "PATH": "/static/image/Product_images/Nike-lebron-nxxt-gen.webp"
     },
     {
         "name": "Adidas Streetball Iii",
-        "Discountprice": 289,
-        "originalprice": 437,
-        "discount_percentage": 34,
-        "liked_stars": 5,
-        "reviews": 824,
-        "PATH": "./image/Product_images/adidas STREETBALL III.avif"
+        "Discountprice": 104,
+        "originalprice": 191,
+        "discount_percentage": 46,
+        "liked_stars": 4,
+        "reviews": 771,
+        "PATH": "/static/image/Product_images/adidas STREETBALL III.avif"
     },
     {
         "name": "Nike Jordan Aj Xxxviii",
-        "Discountprice": 112,
-        "originalprice": 179,
-        "discount_percentage": 37,
-        "liked_stars": 5,
-        "reviews": 121,
-        "PATH": "./image/Product_images/Nike Jordan AJ XXXVIII.webp"
+        "Discountprice": 384,
+        "originalprice": 436,
+        "discount_percentage": 12,
+        "liked_stars": 4,
+        "reviews": 738,
+        "PATH": "/static/image/Product_images/Nike Jordan AJ XXXVIII.webp"
     },
     {
         "name": "Nike Pegasus 40",
-        "Discountprice": 177,
-        "originalprice": 343,
-        "discount_percentage": 48,
-        "liked_stars": 5,
-        "reviews": 841,
-        "PATH": "./image/Product_images/Nike-Pegasus-40.avif"
+        "Discountprice": 302,
+        "originalprice": 428,
+        "discount_percentage": 29,
+        "liked_stars": 4,
+        "reviews": 68,
+        "PATH": "/static/image/Product_images/Nike-Pegasus-40.avif"
     },
     {
         "name": "Adidas Terrex Free Hiker 2.0",
-        "Discountprice": 374,
-        "originalprice": 546,
-        "discount_percentage": 32,
-        "liked_stars": 4,
-        "reviews": 662,
-        "PATH": "./image/Product_images/adidas TERREX FREE HIKER 2.0.avif"
+        "Discountprice": 402,
+        "originalprice": 582,
+        "discount_percentage": 31,
+        "liked_stars": 5,
+        "reviews": 369,
+        "PATH": "/static/image/Product_images/adidas TERREX FREE HIKER 2.0.avif"
     },
     {
         "name": "Nike Jordan Zion 3 ",
-        "Discountprice": 306,
-        "originalprice": 435,
-        "discount_percentage": 30,
-        "liked_stars": 4,
-        "reviews": 428,
-        "PATH": "./image/Product_images/NIke Jordan Zion 3 .webp"
+        "Discountprice": 159,
+        "originalprice": 233,
+        "discount_percentage": 32,
+        "liked_stars": 3,
+        "reviews": 653,
+        "PATH": "/static/image/Product_images/NIke Jordan Zion 3 .webp"
     },
     {
         "name": "Nike Zoom Fly 5 Premium",
-        "Discountprice": 344,
-        "originalprice": 434,
-        "discount_percentage": 21,
-        "liked_stars": 4,
-        "reviews": 854,
-        "PATH": "./image/Product_images/Nike-Zoom-Fly-5-Premium.webp"
+        "Discountprice": 330,
+        "originalprice": 465,
+        "discount_percentage": 29,
+        "liked_stars": 3,
+        "reviews": 362,
+        "PATH": "/static/image/Product_images/Nike-Zoom-Fly-5-Premium.webp"
     },
     {
         "name": "Adidas Terrex Free Hiker 2",
-        "Discountprice": 441,
-        "originalprice": 524,
-        "discount_percentage": 16,
-        "liked_stars": 5,
-        "reviews": 536,
-        "PATH": "./image/Product_images/adidas TERREX FREE HIKER 2.avif"
+        "Discountprice": 409,
+        "originalprice": 564,
+        "discount_percentage": 27,
+        "liked_stars": 3,
+        "reviews": 240,
+        "PATH": "/static/image/Product_images/adidas TERREX FREE HIKER 2.avif"
     },
     {
         "name": "Nike Kids' Giannis Immortality 2 ",
-        "Discountprice": 181,
-        "originalprice": 300,
-        "discount_percentage": 40,
-        "liked_stars": 5,
-        "reviews": 332,
-        "PATH": "./image/Product_images/Nike Kids' Giannis Immortality 2 .webp"
+        "Discountprice": 376,
+        "originalprice": 551,
+        "discount_percentage": 32,
+        "liked_stars": 3,
+        "reviews": 387,
+        "PATH": "/static/image/Product_images/Nike Kids' Giannis Immortality 2 .webp"
     },
     {
         "name": "Two Wxy V4 2",
-        "Discountprice": 185,
-        "originalprice": 278,
-        "discount_percentage": 33,
-        "liked_stars": 4,
-        "reviews": 199,
-        "PATH": "./image/Product_images/TWO WXY V4 2.webp"
+        "Discountprice": 318,
+        "originalprice": 491,
+        "discount_percentage": 35,
+        "liked_stars": 3,
+        "reviews": 825,
+        "PATH": "/static/image/Product_images/TWO WXY V4 2.webp"
     },
     {
         "name": "New Balance 530",
-        "Discountprice": 146,
-        "originalprice": 323,
-        "discount_percentage": 55,
-        "liked_stars": 5,
-        "reviews": 392,
-        "PATH": "./image/Product_images/new balance 530.webp"
+        "Discountprice": 187,
+        "originalprice": 338,
+        "discount_percentage": 45,
+        "liked_stars": 4,
+        "reviews": 889,
+        "PATH": "/static/image/Product_images/new balance 530.webp"
     },
     {
         "name": "Nike Lebron 21",
-        "Discountprice": 255,
-        "originalprice": 434,
-        "discount_percentage": 41,
-        "liked_stars": 5,
-        "reviews": 626,
-        "PATH": "./image/Product_images/NIKE LEBRON 21.webp"
+        "Discountprice": 206,
+        "originalprice": 293,
+        "discount_percentage": 30,
+        "liked_stars": 4,
+        "reviews": 386,
+        "PATH": "/static/image/Product_images/NIKE LEBRON 21.webp"
     },
     {
         "name": "Two Wxy V4",
-        "Discountprice": 274,
-        "originalprice": 405,
-        "discount_percentage": 32,
-        "liked_stars": 3,
-        "reviews": 534,
-        "PATH": "./image/Product_images/TWO WXY V4.webp"
+        "Discountprice": 155,
+        "originalprice": 255,
+        "discount_percentage": 39,
+        "liked_stars": 4,
+        "reviews": 706,
+        "PATH": "/static/image/Product_images/TWO WXY V4.webp"
     },
     {
         "name": "New Balance 9060",
-        "Discountprice": 286,
-        "originalprice": 348,
-        "discount_percentage": 18,
-        "liked_stars": 4,
-        "reviews": 576,
-        "PATH": "./image/Product_images/new balance 9060.webp"
+        "Discountprice": 275,
+        "originalprice": 439,
+        "discount_percentage": 37,
+        "liked_stars": 3,
+        "reviews": 670,
+        "PATH": "/static/image/Product_images/new balance 9060.webp"
     },
     {
         "name": "Nike Lebron Xxi Tahitian",
-        "Discountprice": 387,
-        "originalprice": 451,
-        "discount_percentage": 14,
-        "liked_stars": 3,
-        "reviews": 97,
-        "PATH": "./image/Product_images/Nike LeBron XXI Tahitian.webp"
+        "Discountprice": 272,
+        "originalprice": 427,
+        "discount_percentage": 36,
+        "liked_stars": 4,
+        "reviews": 539,
+        "PATH": "/static/image/Product_images/Nike LeBron XXI Tahitian.webp"
     },
     {
         "name": "Nike Air Jordan 1",
-        "Discountprice": 272,
-        "originalprice": 381,
-        "discount_percentage": 29,
-        "liked_stars": 5,
-        "reviews": 383,
-        "PATH": "./image/Product_images/Nike Air Jordan 1.webp"
+        "Discountprice": 227,
+        "originalprice": 396,
+        "discount_percentage": 43,
+        "liked_stars": 4,
+        "reviews": 820,
+        "PATH": "/static/image/Product_images/Nike Air Jordan 1.webp"
     },
     {
         "name": "Nike Pegasus 40",
-        "Discountprice": 388,
-        "originalprice": 507,
-        "discount_percentage": 23,
-        "liked_stars": 3,
-        "reviews": 496,
-        "PATH": "./image/Product_images/Nike Pegasus 40.webp"
+        "Discountprice": 140,
+        "originalprice": 266,
+        "discount_percentage": 47,
+        "liked_stars": 4,
+        "reviews": 273,
+        "PATH": "/static/image/Product_images/Nike Pegasus 40.webp"
     },
     {
         "name": "Air Jordan 4 Craft Olive",
-        "Discountprice": 208,
-        "originalprice": 379,
-        "discount_percentage": 45,
+        "Discountprice": 257,
+        "originalprice": 307,
+        "discount_percentage": 16,
         "liked_stars": 5,
-        "reviews": 87,
-        "PATH": "./image/Product_images/Air jordan 4 craft olive.webp"
+        "reviews": 874,
+        "PATH": "/static/image/Product_images/Air jordan 4 craft olive.webp"
     },
     {
         "name": "Jordan Winterized 6 Rings",
-        "Discountprice": 235,
-        "originalprice": 401,
-        "discount_percentage": 41,
-        "liked_stars": 3,
-        "reviews": 603,
-        "PATH": "./image/Product_images/Jordan winterized 6 rings.webp"
+        "Discountprice": 210,
+        "originalprice": 305,
+        "discount_percentage": 31,
+        "liked_stars": 4,
+        "reviews": 179,
+        "PATH": "/static/image/Product_images/Jordan winterized 6 rings.webp"
     },
     {
         "name": "Jordan Jumpman Pro",
-        "Discountprice": 368,
-        "originalprice": 525,
-        "discount_percentage": 30,
-        "liked_stars": 3,
-        "reviews": 541,
-        "PATH": "./image/Product_images/Jordan jumpman pro.webp"
+        "Discountprice": 446,
+        "originalprice": 515,
+        "discount_percentage": 13,
+        "liked_stars": 5,
+        "reviews": 458,
+        "PATH": "/static/image/Product_images/Jordan jumpman pro.webp"
     },
     {
         "name": "Jordan 6 Rings",
-        "Discountprice": 281,
-        "originalprice": 347,
-        "discount_percentage": 19,
+        "Discountprice": 249,
+        "originalprice": 301,
+        "discount_percentage": 17,
         "liked_stars": 3,
-        "reviews": 728,
-        "PATH": "./image/Product_images/Jordan 6 rings.webp"
+        "reviews": 219,
+        "PATH": "/static/image/Product_images/Jordan 6 rings.webp"
     },
     {
         "name": "Air Jordan Xxxviii Low Fundamental",
-        "Discountprice": 323,
-        "originalprice": 462,
-        "discount_percentage": 30,
-        "liked_stars": 5,
-        "reviews": 437,
-        "PATH": "./image/Product_images/Air Jordan XXXVIII Low Fundamental.webp"
+        "Discountprice": 303,
+        "originalprice": 373,
+        "discount_percentage": 19,
+        "liked_stars": 4,
+        "reviews": 769,
+        "PATH": "/static/image/Product_images/Air Jordan XXXVIII Low Fundamental.webp"
     },
     {
         "name": "Kaptir 3.0 Wide",
-        "Discountprice": 245,
-        "originalprice": 358,
-        "discount_percentage": 32,
+        "Discountprice": 444,
+        "originalprice": 562,
+        "discount_percentage": 21,
         "liked_stars": 5,
-        "reviews": 262,
-        "PATH": "./image/Product_images/Kaptir 3.0 Wide.avif"
+        "reviews": 771,
+        "PATH": "/static/image/Product_images/Kaptir 3.0 Wide.avif"
     }
 ]

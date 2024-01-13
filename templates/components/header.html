@@ -5,27 +5,27 @@
   </div>
   <nav>
     <div class="logo">
-      <svg
-        xmlns="#www.w3.org/2000/svg"
-        width="30"
-        height="30"
-        fill="none"
-        viewBox="0 0 30 30">
-        <path
-          fill="#181818"
-          fill-rule="evenodd"
-          d="M15 0H0l15 15H0l15 15h15L15 15h15L15 0Z"
-          clip-rule="evenodd" />
-      </svg>
+      <a href="{{ url_for('home') }}">
+        <svg
+          xmlns="#www.w3.org/2000/svg"
+          width="30"
+          height="30"
+          fill="none"
+          viewBox="0 0 30 30">
+          <path
+            fill="#181818"
+            fill-rule="evenodd"
+            d="M15 0H0l15 15H0l15 15h15L15 15h15L15 0Z"
+            clip-rule="evenodd" /></svg></a>
     </div>
     <div class="left_nav">
       <ul>
-        <li><a href="shop.html" style="border: none">women</a></li>
-        <li><a href="shop.html">men</a></li>
-        <li><a href="shop.html">kids</a></li>
-        <li><a href="shop.html">classic</a></li>
-        <li><a href="shop.html">sports</a></li>
-        <li><a href="shop.html">sales</a></li>
+        <li><a href="{{ url_for('shop') }}" style="border: none">women</a></li>
+        <li><a href="{{ url_for('shop') }}">men</a></li>
+        <li><a href="{{ url_for('shop') }}">kids</a></li>
+        <li><a href="{{ url_for('shop') }}">classic</a></li>
+        <li><a href="{{ url_for('shop') }}">sports</a></li>
+        <li><a href="{{ url_for('shop') }}">sales</a></li>
       </ul>
     </div>
     <div class="right_nav">

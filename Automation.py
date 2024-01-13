@@ -79,7 +79,7 @@ for shoe_name in shoe_names:
     reviews = generate_reviews()
 
     # to generate the PATH to the image
-    path = f"./image/Product_images/{shoe_name}"
+    path = f"/static/image/Product_images/{shoe_name}"
 
     # Creating shoe data dictionary
     shoe_data = {
