@@ -40,6 +40,7 @@
 }
 
 .sign-in {
+  display: flex;
   flex-direction: column;
   gap: 10px;
   background-color: #ffffff;
@@ -47,11 +48,14 @@
   width: 100%;
   border-radius: 20px;
   font-family: "Acme", Verdana, "Segoe UI", sans-serif;
-  display: none;
 }
 
 .sign-in button {
   align-self: flex-end;
+}
+
+.sign-in.opened-drop {
+  display: flex;
 }
 
 .flex-column > label {
@@ -143,6 +147,7 @@
   width: 100%;
   border-radius: 20px;
   font-family: "Acme", Verdana, "Segoe UI", sans-serif;
+  display: none;
 }
 .sign-up .flex-column > label {
   font-size: 1.1rem;
@@ -321,6 +326,10 @@ header nav .fa-regular.fa-compass.fa-2xl {
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
   width: 350px;
+}
+
+.dropdown-content.hidden {
+  display: none;
 }
 
 .dropdown:hover .dropdown-content {

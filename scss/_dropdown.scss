@@ -17,6 +17,9 @@
     width: 350px;
 }
 
+.dropdown-content.hidden{
+    display: none;
+}
 
 .dropdown:hover .dropdown-content {
     background-color: aqua;
