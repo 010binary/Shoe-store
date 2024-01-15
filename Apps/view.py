@@ -16,6 +16,6 @@ def home():
 def shop():
     return render_template("shop.html")
 
-@views.errorhandler(404)
+@views.app_errorhandler(404)
 def error(error):
     return "<h1 style='color:red;'> Error finding route please return to a valid route", 404
